@@ -1,6 +1,12 @@
 import React from 'react';
 import './Home.scss';
 
+import LearnMore from '../../Components/LearnMore/LearnMore';
+import Socials from '../../Components/Socials/Socials';
+import HomeProjectRow from '../../Components/HomeProjectRow/HomeProjectRow'
+import HomeNewsLetterRow from '../../Components/HomeNewsLetterRow/HomeNewsLetterRow';
+
+
 export default class Home extends React.Component {
 
    render() {
@@ -8,54 +14,39 @@ export default class Home extends React.Component {
       const lead = Math.random() >= 0.5 ? 'Maps + Code' : 'Design + Code + Grow';
       return (
          <>
-            <div className="banner">
-               <span className="bold">Hot off the press: </span>
-               <a href="https://here.com" className="light-link">Fighting hunger with chatbots</a>
-            </div>
-
             <div className="mainstage">
                <div className="lead">
                   {lead}
                </div>
                <div className="sublead">
-                  Interdisciplinary Technologist based in Seattle, WA.
+                  Technologist based in Seattle, WA.
                </div>
-
+               <Socials />
             </div>
 
-            <div className="carousel">
-               <div className="project">
-                  <div className="block"></div>
-                  <div className="title">
-                     FlightMapper
-                  </div>
-                  <div className="subtitle">
-                     A full stack visualization application to display flight history.
+            <HomeProjectRow />
 
-                  </div>
-                  <div class="learn">
-                     Learn More &#8594;
-                  </div>
 
-               </div>
+            <HomeNewsLetterRow />
 
-               <div className="project">
-                  <div className="block"></div>
-                     <div className="title">
-                        Social Good Chatbot
-                     </div>
-                     <div className="subtitle">
-                        HERE Technologies and Greater Chicago Food Depository team up to fight hunger.
-                     </div>
-                     <div class="learn">
-                        Learn More &#8594;
-                     </div>
-               </div>
+            <div className="writings">
+               <h1>Writings</h1>
+
+               <div className="post">
+                  <div className="date">January 8th, 2019</div>
+                  <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
+                  <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
+                  <LearnMore link="google.com"/>
+            </div>
+               <div className="post">
+                  <div className="date">January 8th, 2019</div>
+                  <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
+                  <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
+                  <LearnMore link="google.com"/>
+            </div>
             </div>
 
-            <div className="newsletter">
 
-            </div>
          </>
       )
    }

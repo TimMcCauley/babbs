@@ -2,18 +2,27 @@
 header {
    width: 100%;
    background: white;
-   padding: 20px 40px;
-   box-sizing: border-box;
+
+
    border-bottom: 1px solid #FAFBFC;
+
+   .inner {
+      padding: 20px 40px;
+      max-width: 1200px;
+      margin: auto;
+      box-sizing: border-box;
+   }
+
+
+
 }
 
-header a {
+a {
    font-weight: 400;
    color: black;
    text-decoration: none;
    transition: .2s all;
 }
-
 .left {
    font-weight: 600;
 }
@@ -26,7 +35,7 @@ header a {
    float: right;
    color: #999;
    padding-left: 20px;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 .right:hover {

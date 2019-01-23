@@ -1,0 +1,35 @@
+.carousel {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 40px 40px 120px;
+   grid-gap: 40px;
+   animation-name: carousel-animation;
+   animation-duration: 1s;
+   animation-delay: .7s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+
+
+   @keyframes carousel-animation {
+      0% {
+         opacity: 0;
+
+      }
+
+      100% {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
+
+   .block {
+      background: black;
+      height: 250px;
+   }
+
+   .subtitle {
+      color: #999;
+      font-weight: 400;
+      margin: 15px 0;
+   }
+}

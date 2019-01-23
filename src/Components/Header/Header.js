@@ -7,9 +7,11 @@ export default class Header extends React.Component {
    render() {
       return (
          <header>
-            <Link className="left" to="/">Dylan Babbs</Link>
-            <Link className="right" to="/">Projects</Link>
-            <Link className="right" to="/">Writing</Link>
+            <div className="inner">
+               <Link className="left" to="/">Dylan Babbs</Link>
+               <Link className="right" to="/">Projects</Link>
+               <Link className="right" to="/">Writing</Link>
+            </div>
          </header>
       )
    }
