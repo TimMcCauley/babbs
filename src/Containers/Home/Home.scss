@@ -1,0 +1,112 @@
+.banner {
+   background: #FAFBFC;
+   padding: 15px;
+   font-size: 14px;
+   text-align: center;
+   animation-name: appear;
+   animation-duration: 1.5s;
+   // z-index: 0;
+   // margin-top: 40px;
+   @keyframes appear {
+      from {
+         opacity: 0;
+      }
+
+      to {
+         opacity: 1;
+      }
+   }
+
+   .bold {
+      font-weight: 600;
+   }
+
+   .light-link {
+      color: #999;
+      transition: 0.2s all;
+      text-decoration: none;
+   }
+
+   .link-link:hover {
+      color: blue;
+   }
+}
+
+.mainstage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+   flex-direction: column;
+
+   .lead {
+      font-size: 45px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      animation-name: lead-animation;
+      animation-duration: 1s;
+   }
+   @keyframes lead-animation {
+      0% {
+         opacity: 0;
+         transform: translateY(20px);
+      }
+
+      100% {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
+
+   .sublead {
+      opacity: 0;
+      font-size: 20px;
+      color: #999;
+      animation-name: lead-animation;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+
+      animation-delay: .3s;
+   }
+}
+
+.carousel {
+
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 120px 40px;
+   grid-gap: 40px;
+
+   .project {
+
+   }
+
+   .block {
+      background: black;
+      height: 250px;
+   }
+
+   .title {
+      font-weight: 400;
+      font-size: 22px;
+      margin: 15px 0;
+   }
+
+   .subtitle {
+      color: #999;
+      font-weight: 400;
+   }
+
+   .learn {
+      margin-top: 10px;
+      color: black;
+      font-weight: 500;
+   }
+}
+
+.newsletter {
+   height: 200px;
+   background: #FAFBFC;
+   border-top: 1px solid #eaeaea;
+   border-bottom: 1px solid #eaeaea;
+}
