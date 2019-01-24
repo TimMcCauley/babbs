@@ -1,0 +1,52 @@
+.projects-container {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-gap: 40px;
+   padding: 40px;
+   transition: 1s all;
+
+   .sidebar {
+
+
+      .title {
+         // font-size: 18px;
+         color: black;
+         font-weight: 600;
+         margin-bottom: 20px;
+      }
+
+
+      .item {
+         margin: 20px 0;
+         cursor: pointer;
+         transition: .2s all;
+         color: #999;
+
+         &:hover {
+            color: black;
+            // font-weight: 500;
+         }
+      }
+
+      .selected {
+         color: black;
+         font-weight: 500;
+      }
+
+   }
+
+   .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      transition: 1s all;
+
+      @media only screen and (max-width: 700px) {
+         grid-template-columns: 1fr;
+
+      }
+
+   }
+
+
+}

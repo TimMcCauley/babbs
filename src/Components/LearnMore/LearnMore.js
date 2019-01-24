@@ -1,4 +1,5 @@
 import React from 'react';
+import './LearnMore.scss'
 
 const LearnMore = (props) => {
    return (

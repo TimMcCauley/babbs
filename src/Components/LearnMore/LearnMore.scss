@@ -3,4 +3,10 @@
    color: black;
    font-weight: 500;
    transition: .2s all;
+   display: block;
+
+   &:hover {
+      color: blue;
+      transform: translateY(-1px);
+   }
 }

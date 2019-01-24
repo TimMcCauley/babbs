@@ -6,6 +6,7 @@ import Socials from '../../Components/Socials/Socials';
 import HomeProjectRow from '../../Components/HomeProjectRow/HomeProjectRow'
 import HomeNewsLetterRow from '../../Components/HomeNewsLetterRow/HomeNewsLetterRow';
 
+import Button from '../../Components/Button/Button'
 
 export default class Home extends React.Component {
 
@@ -37,13 +38,14 @@ export default class Home extends React.Component {
                   <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
                   <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
                   <LearnMore link="google.com"/>
-            </div>
+               </div>
                <div className="post">
                   <div className="date">January 8th, 2019</div>
                   <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
                   <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
                   <LearnMore link="google.com"/>
-            </div>
+               </div>
+               <Button color="light" text="View all writing" />
             </div>
 
 

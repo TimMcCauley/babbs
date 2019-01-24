@@ -1,0 +1,22 @@
+.project {
+   padding: 20px;
+   border-radius: 5px;
+   transition: .3s all;
+   cursor: pointer;
+
+   &:hover {
+      box-shadow: 0px 1px 40px #e8e8e8;
+      transform: translateY(-1px);
+   }
+
+   .block {
+      background: black;
+      height: 250px;
+   }
+
+   .subtitle {
+      color: #999;
+      font-weight: 400;
+      margin: 15px 0;
+   }
+}
