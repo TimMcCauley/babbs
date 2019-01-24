@@ -1,0 +1,20 @@
+[
+   {
+      "title": "FlightMapper.io",
+      "description": "Full stack application to visualize your flight history.",
+      "content": true,
+      "slug": "flightmapper",
+      "external_slug": "https://flightmapper.io",
+      "img": "flightmapper.png",
+      "link_text": "learn"
+   },
+   {
+      "title": "Social Good Chatbot",
+      "description": "Joint partnership between HERE and GCFD to developer a social good chatbot.",
+      "content": true,
+      "slug": "gcfd-chatbot",
+      "external_slug": "https://developer.here.com",
+      "img": "gcfd-chatbot.png",
+      "link_text": "github"
+   }
+]

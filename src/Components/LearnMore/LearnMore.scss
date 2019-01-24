@@ -1,12 +1,14 @@
+@import "../../master.scss";
+
 .learn {
    margin-top: 10px;
-   color: black;
+   color: $black;
    font-weight: 500;
    transition: .2s all;
    display: block;
 
    &:hover {
-      color: blue;
-      transform: translateY(-1px);
+      color: $accent;
+      // transform: translateY(-1px);
    }
 }

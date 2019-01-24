@@ -1,18 +1,21 @@
 import React from 'react';
 import './Home.scss';
 
-import LearnMore from '../../Components/LearnMore/LearnMore';
 import Socials from '../../Components/Socials/Socials';
 import HomeProjectRow from '../../Components/HomeProjectRow/HomeProjectRow'
 import HomeNewsLetterRow from '../../Components/HomeNewsLetterRow/HomeNewsLetterRow';
+import BlogTile from '../../Components/BlogTile/BlogTile';
 
-import Button from '../../Components/Button/Button'
+import Button from '../../Components/Button/Button';
+
+
 
 export default class Home extends React.Component {
 
    render() {
 
       const lead = Math.random() >= 0.5 ? 'Maps + Code' : 'Design + Code + Grow';
+
       return (
          <>
             <div className="mainstage">
@@ -25,26 +28,18 @@ export default class Home extends React.Component {
                <Socials />
             </div>
 
-            <HomeProjectRow />
+            <HomeProjectRow projects={[this.props.projects[0], this.props.projects[1]]}/>
 
 
             <HomeNewsLetterRow />
 
             <div className="writings">
-               <h1>Writings</h1>
+               <h1 style={{marginLeft: '20px'}}>Writings</h1>
 
-               <div className="post">
-                  <div className="date">January 8th, 2019</div>
-                  <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
-                  <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
-                  <LearnMore link="google.com"/>
-               </div>
-               <div className="post">
-                  <div className="date">January 8th, 2019</div>
-                  <div className="post-title">Interactive HERE Isolines with React + Leaflet</div>
-                  <div className="teaser">This is some teaser text that i am writing. The HERE isoline text is super important because it allows for</div>
-                  <LearnMore link="google.com"/>
-               </div>
+
+
+               <BlogTile />
+               <BlogTile />
                <Button color="light" text="View all writing" />
             </div>
 

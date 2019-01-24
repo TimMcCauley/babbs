@@ -1,0 +1,33 @@
+@import "../../master.scss";
+
+.post {
+   margin: 60px 0;
+   padding: 20px;
+   transition: .3s all;
+   border-radius: 5px;
+   cursor: pointer;
+
+   &:hover {
+      box-shadow: $large_shadow;
+      transform: translateY(-1px);
+   }
+
+   &:hover .learn {
+      color: $accent;
+   }
+
+   .date {
+      color: $text_grey;
+      margin: 10px 0;
+   }
+
+   .post-title {
+      font-size: 24px;
+      margin: 10px 0;
+   }
+
+   .teaser {
+      margin: 10px 0;
+      color: $text_grey;
+   }
+}

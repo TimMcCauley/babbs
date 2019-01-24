@@ -1,25 +1,21 @@
+@import "../../master.scss";
 
 header {
    width: 100%;
    background: white;
-
-
-   border-bottom: 1px solid #FAFBFC;
+   border-bottom: 1px solid $background_grey;
 
    .inner {
       padding: 20px 40px;
-      max-width: 1200px;
+      max-width: $max_width;
       margin: auto;
       box-sizing: border-box;
    }
-
-
-
 }
 
 a {
    font-weight: 400;
-   color: black;
+   color: $black;
    text-decoration: none;
    transition: .2s all;
 }
@@ -27,17 +23,13 @@ a {
    font-weight: 600;
 }
 
-
-
-
-
 .right {
    float: right;
-   color: #999;
+   color: $text_grey;
    padding-left: 20px;
    font-size: 15px;
 }
 
 .right:hover {
-   color: black;
+   color: $black;
 }

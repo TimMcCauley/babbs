@@ -1,5 +1,7 @@
+@import "../../master.scss";
+
 .banner {
-   background: #FAFBFC;
+   background: $background_grey;
    padding: 15px;
    font-size: 14px;
    text-align: center;
@@ -22,12 +24,13 @@
    }
 
    .light-link {
-      color: #999;
+      color: $text_grey;
       transition: 0.2s all;
       text-decoration: none;
+
+      &:hover {
+         color: $accent;
+      }
    }
 
-   .link-link:hover {
-      color: blue;
-   }
 }

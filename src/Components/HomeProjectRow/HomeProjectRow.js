@@ -7,8 +7,8 @@ import ProjectTile from '../ProjectTile/ProjectTile';
 const HomeProjectRow = (props) => {
    return (
       <div className="carousel">
-         <ProjectTile />
-         <ProjectTile />
+         <ProjectTile project={props.projects[0]}/>
+         <ProjectTile project={props.projects[1]}/>
          <div>
             <Button color="light" text="View all projects" />
          </div>

@@ -3,19 +3,20 @@ import './ProjectTile.scss';
 import LearnMore from '../LearnMore/LearnMore';
 
 const ProjectTile = (props) => {
+   const link = '';
 
    return (
-      <div className="project">
+      <a href={link} className="project">
          <div className="block"></div>
          <h3>
-            FlightMapper.io
+            {props.project.title}
          </h3>
          <div className="subtitle">
-            A full stack visualization application to display flight history.
+            {props.project.description}
 
          </div>
-         <LearnMore link="google.com" />
-      </div>
+         <LearnMore text={props.project.link_text} link="google.com" />
+      </a>
    )
 }
 

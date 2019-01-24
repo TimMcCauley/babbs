@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import {Route} from "react-router-dom";
 
 //Components
@@ -11,12 +11,15 @@ import Footer from './Components/Footer/Footer'
 import Home from './Containers/Home/Home';
 import Projects from './Containers/Projects/Projects';
 
+import projects from './data/projects.json'
+
 class App extends Component {
 
    constructor(props) {
       super(props);
       this.state = {
-         activeTab: 'home'
+         activeTab: 'home',
+         projects: projects
       }
    }
 
@@ -28,14 +31,14 @@ class App extends Component {
                this.state.activeTab === 'home' &&
                <Banner
                   title="Hot off the press: "
-                  text="Fighting hunger with chatbots"
+                  text="Interactive Isolines with HERE + React + Leaflet"
                   link="https://here.com"
                />
 
             }
             <div className="max">
-               <Route exact path="/" component={Home}/>
-               <Route exact path="/projects" component={Projects}/>
+               <Route exact path="/" component={ () => <Home projects={this.state.projects}/>}/>
+               <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
             </div>
             <Footer/>
          </>

@@ -1,3 +1,4 @@
+@import "../../master.scss";
 
 .mainstage {
    display: flex;
@@ -29,7 +30,7 @@
    .sublead {
       opacity: 0;
       font-size: 20px;
-      color: #999;
+      color: $text_grey;
       animation-name: lead-animation;
       animation-duration: 1s;
       animation-fill-mode: forwards;
@@ -43,27 +44,5 @@
 .writings {
    padding: 120px 40px;
 
-   .title {
-      font-weight: 600;
-      font-size: 32px;
-      margin-bottom: 20px
-   }
 
-   .post {
-      margin: 60px 0;
-      .date {
-         color: #999;
-         margin: 10px 0;
-      }
-
-      .post-title {
-         font-size: 24px;
-         margin: 10px 0;
-      }
-
-      .teaser {
-         margin: 10px 0;
-         color: #999;
-      }
-   }
 }

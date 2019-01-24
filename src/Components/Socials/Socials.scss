@@ -1,3 +1,5 @@
+@import "../../master.scss";
+
 
 .socials {
    margin: 20px;
@@ -15,7 +17,7 @@
    }
 
    a:hover {
-      color: #999;
+      color: $text_grey;
    }
 
    @keyframes socials {

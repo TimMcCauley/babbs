@@ -1,8 +1,10 @@
+@import "../../master.scss";
+
 footer {
-   background: #FAFBFC;
+   background: $background_grey;
    padding: 80px;
    text-align: center;
-   color: #999;
+   color: $text_grey;
    font-size: 14px;
 
    a {

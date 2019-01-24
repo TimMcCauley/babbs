@@ -1,5 +1,8 @@
+@import "./master.scss";
+
+//blue color: 0E00FF
 .max {
-   max-width: 1200px;
+   max-width: $max_width;
    margin: auto;
 }
 
