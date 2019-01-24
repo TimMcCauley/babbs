@@ -6,7 +6,8 @@
       "slug": "flightmapper",
       "external_slug": "https://flightmapper.io",
       "img": "flightmapper.png",
-      "link_text": "learn"
+      "link_text": "learn",
+      "categories": ["Design", "Code"]
    },
    {
       "title": "Social Good Chatbot",
@@ -15,6 +16,88 @@
       "slug": "gcfd-chatbot",
       "external_slug": "https://developer.here.com",
       "img": "gcfd-chatbot.png",
-      "link_text": "github"
+      "link_text": "learn",
+      "categories": ["Work", "Design"]
+   },
+   {
+      "title": "Geospatial Company Index",
+      "description": "Database of 99+ Geospatial Companies",
+      "content": false,
+      "slug": "geospatial-company-index",
+      "external_slug": "",
+      "img": "geospatial-company-index.png",
+      "link_text": "website",
+      "categories": ["Research"]
+   },
+   {
+      "title": "Uber Visualized",
+      "description": "Interactive map visualization of my Uber trips.",
+      "content": false,
+      "slug": "uber-visualized",
+      "external_slug": "http://projects.dylanbabbs.com/uber-visualized/",
+      "img": "uber-visualized.png",
+      "link_text": "live-project",
+      "categories": ["Design", "Code", "Data"]
+   },
+   {
+      "title": "Croporama",
+      "description": "iOS app to prepare panoramas for Instagram.",
+      "content": false,
+      "slug": "croporama",
+      "external_slug": "https://itunes.apple.com/us/app/waruc-washington-road-usage-charge-pilot/id1240657572?mt=8",
+      "img": "waruc.png",
+      "link_text": "appstore",
+      "categories": ["Design", "Code"]
+   },
+   {
+      "title": "Polygon Boundary Query API",
+      "description": "RESTful API for querying HERE polygon boundary data in GeoJSON format.",
+      "content": false,
+      "slug": "query-polygon-api",
+      "external_slug": "https://github.com/dbabbs/query-geojson-polygons",
+      "img": "query-polygon-api.png",
+      "link_text": "github",
+      "categories": ["Code"]
+   },
+   {
+      "title": "WA Road Usage Charge",
+      "description": "Connected vehicle analytics for mileage detection.",
+      "content": true,
+      "slug": "waruc",
+      "external_slug": "https://itunes.apple.com/us/app/waruc-washington-road-usage-charge-pilot/id1240657572?mt=8",
+      "img": "waruc.png",
+      "link_text": "learn",
+      "categories": ["Design", "Code", "Coursework"]
+   },
+   {
+      "title": "Jasper Smart Mirror",
+      "description": "Smart mirror to assist with wardrobe management.",
+      "content": false,
+      "slug": "jasper",
+      "external_slug": "https://courses.cs.washington.edu/courses/cse440/17wi/projects/jasper/",
+      "img": "jasper.png",
+      "link_text": "website",
+      "categories": ["Design", "Coursework"]
+   },
+   {
+      "title": "UW Course Sequence Explorer",
+      "description": "Visual representation of UW course pathways.",
+      "content": false,
+      "slug": "uw-course-viz",
+      "external_slug": "http://cse512-16s.github.io/fp-dbabbs-jordanstarkey95/",
+      "img": "uw-course-viz.png",
+      "link_text": "website",
+      "categories": ["Design", "Data", "Coursework"]
+   },
+   {
+      "title": "Uber iMessage Concept",
+      "description": "Concepts for iMessage integration into Uber.",
+      "content": false,
+      "slug": "uber-imesssage-concept",
+      "external_slug": "http://projects.dylanbabbs.com/uber-product.pdf",
+      "img": "uber-imesssage-concept.png",
+      "link_text": "presentation",
+      "categories": ["Design", "Data", "Coursework"]
    }
+
 ]

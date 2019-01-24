@@ -16,7 +16,12 @@ export default class Button extends React.Component {
       }
 
       return (
-         <button className={classes.join(' ')}>{this.props.text}</button>
+         <button
+            className={classes.join(' ')}
+            onClick={this.props.onClick}
+         >
+            {this.props.text}
+         </button>
       )
    }
 }

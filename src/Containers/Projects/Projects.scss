@@ -16,6 +16,7 @@
          color: $black;
          font-weight: 600;
          margin-bottom: 20px;
+         padding-top: 20px;
       }
 
 
@@ -27,13 +28,12 @@
 
          &:hover {
             color: black;
-            // font-weight: 500;
          }
       }
 
       .selected {
          color: $black;
-         font-weight: 500;
+         // font-weight: 500;
 
       }
 
@@ -45,7 +45,7 @@
       grid-gap: 20px;
       transition: 1s all;
 
-      @media only screen and (max-width: 700px) {
+      @media only screen and (max-width: 750px) {
          grid-template-columns: 1fr;
 
       }
