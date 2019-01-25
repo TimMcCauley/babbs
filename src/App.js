@@ -12,6 +12,7 @@ import Home from './Containers/Home/Home';
 import Projects from './Containers/Projects/Projects';
 
 import projects from './data/projects.json'
+import writing from './data/writing.json'
 
 class App extends Component {
 
@@ -19,7 +20,8 @@ class App extends Component {
       super(props);
       this.state = {
          activeTab: 'home',
-         projects: projects
+         projects: projects,
+         writing: writing
       }
    }
 
@@ -37,7 +39,7 @@ class App extends Component {
 
             }
             <div className="max">
-               <Route exact path="/" component={ () => <Home projects={this.state.projects}/>}/>
+               <Route exact path="/" component={ () => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
                <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
             </div>
             <Footer/>

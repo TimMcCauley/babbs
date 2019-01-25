@@ -38,8 +38,8 @@ export default class Home extends React.Component {
 
 
 
-               <BlogTile />
-               <BlogTile />
+               <BlogTile writing={this.props.writing[0]}/>
+               <BlogTile writing={this.props.writing[1]}/>
                <Button color="light" text="View all writing" />
             </div>
 

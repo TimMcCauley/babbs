@@ -26,8 +26,11 @@
 
    .block {
       height: 250px;
-      transition: 3s all ease-out;
       background: pink;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position:center;
+      border-radius: 3px;
 
    }
 
