@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.scss';
 
 import Socials from '../../Components/Socials/Socials';
@@ -40,7 +41,10 @@ export default class Home extends React.Component {
 
                <BlogTile writing={this.props.writing[0]}/>
                <BlogTile writing={this.props.writing[1]}/>
-               <Button color="light" text="View all writing" />
+               <Link to="/writing">
+                  <Button color="light" text="View all writing" />
+               </Link>
+
             </div>
 
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HomeProjectRow.scss'
 
 import Button from '../Button/Button';
@@ -10,7 +11,10 @@ const HomeProjectRow = (props) => {
          <ProjectTile project={props.projects[0]}/>
          <ProjectTile project={props.projects[1]}/>
          <div>
-            <Button color="light" text="View all projects" />
+            <Link to="/projects">
+               <Button color="light" text="View all projects" />
+            </Link>
+
          </div>
       </div>
    )

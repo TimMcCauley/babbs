@@ -10,7 +10,9 @@ import Footer from './Components/Footer/Footer'
 //Containers
 import Home from './Containers/Home/Home';
 import Projects from './Containers/Projects/Projects';
+import Writing from './Containers/Writing/Writing';
 
+//Data
 import projects from './data/projects.json'
 import writing from './data/writing.json'
 
@@ -41,7 +43,9 @@ class App extends Component {
             <div className="max">
                <Route exact path="/" component={ () => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
                <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
-            </div>
+               <Route exact path="/writing" component={() => <Writing writing={this.state.writing}/>}/>
+
+         </div>
             <Footer/>
          </>
       );

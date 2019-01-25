@@ -1,11 +1,13 @@
 @import "../../master.scss";
 
 .post {
-   margin: 60px 0;
+   margin: 40px 0;
    padding: 20px;
    transition: .3s all;
    border-radius: 5px;
+   display: flex;
    cursor: pointer;
+
 
    &:hover {
       box-shadow: $large_shadow;
@@ -16,9 +18,16 @@
       color: $accent;
    }
 
+   .block2 {
+
+      flex: 0 0 250px;
+      background: pink;
+      margin-right: 40px;
+      border-radius: 3px;
+   }
+
    .date {
       color: $text_grey;
-      margin: 10px 0;
    }
 
    .post-title {
@@ -29,5 +38,6 @@
    .teaser {
       margin: 10px 0;
       color: $text_grey;
+      line-height: 24px;
    }
 }

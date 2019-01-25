@@ -11,6 +11,7 @@ export default class Header extends React.Component {
                <Link className="left" to="/">Dylan Babbs</Link>
                <Link className="right" to="/writing">Writing</Link>
                <Link className="right" to="/projects">Projects</Link>
+               <Link className="right" to="/about">About</Link>
 
             </div>
          </header>
