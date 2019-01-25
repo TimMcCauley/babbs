@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer'
 
 //Containers
 import Home from './Containers/Home/Home';
+import About from './Containers/About/About';
 import Projects from './Containers/Projects/Projects';
 import Writing from './Containers/Writing/Writing';
 
@@ -29,12 +30,12 @@ class App extends Component {
 
    render() {
       return (
-         <>
+         <div className="app">
             <Header />
             {
                this.state.activeTab === 'home' &&
                <Banner
-                  title="Hot off the press: "
+                  title="New Tutorial:  "
                   text="Interactive Isolines with HERE + React + Leaflet"
                   link="https://here.com"
                />
@@ -42,12 +43,13 @@ class App extends Component {
             }
             <div className="max">
                <Route exact path="/" component={ () => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
+               <Route exact path="/about" component={() => <About/>}/>
                <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
                <Route exact path="/writing" component={() => <Writing writing={this.state.writing}/>}/>
 
          </div>
             <Footer/>
-         </>
+         </div>
       );
    }
 }

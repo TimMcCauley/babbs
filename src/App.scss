@@ -1,6 +1,12 @@
 @import "./master.scss";
 
 //blue color: 0E00FF
+
+.app {
+   min-height:100vh;
+   position:relative;
+   padding-bottom: calc(#{$footer_padding} * 2 + 40px);
+}
 .max {
    max-width: $max_width;
    margin: auto;

@@ -10,6 +10,8 @@ const LearnMore = (props) => {
       appstore: <div className="learn">View on the App Store &#8594;</div>,
       website: <div className="learn">Visit the website &#8594;</div>,
       presentation: <div className="learn">View the presentation &#8594;</div>,
+      continue: <div className="learn">Continue Reading &#8594;</div>,
+      heredev: <div className="learn">Read full post on HERE Dev blog &#8594;</div>,
    }
    return (
       <div className="learn">{text[props.text]}</div>

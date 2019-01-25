@@ -1,0 +1,66 @@
+@import "../../master.scss";
+
+
+.writing-container {
+   display: flex;
+   padding: 40px;
+   transition: 1s all;
+   animation: lead-animation .7s;
+
+
+   .writings-grid {
+
+
+   }
+
+   .sidebar {
+      flex: 0 0 150px;
+      // background: pink;
+      padding-left: 40px;
+
+      float: right;
+
+      .sidebar-group {
+         margin-top: 40px;
+      }
+
+      .title {
+         color: $black;
+         font-weight: 600;
+         margin: 20px 0;
+
+      }
+
+
+      .item {
+         margin: 20px 0;
+         cursor: pointer;
+         transition: .2s all;
+         color: $text_grey;
+
+         &:hover {
+            color: black;
+         }
+      }
+
+      .selected {
+         color: $black;
+      }
+
+   }
+
+
+
+
+
+}
+
+@keyframes lead-animation {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}

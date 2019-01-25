@@ -5,6 +5,7 @@
    display: flex;
    padding: 40px;
    transition: 1s all;
+   animation: lead-animation .7s;
 
    .sidebar {
       width: 200px;
@@ -41,11 +42,22 @@
       transition: 1s all;
       width: 100%;
 
+
       @media only screen and (max-width: 750px) {
          grid-template-columns: 1fr;
 
       }
 
+   }
+
+   @keyframes lead-animation {
+      0% {
+         opacity: 0;
+      }
+
+      100% {
+         opacity: 1;
+      }
    }
 
 

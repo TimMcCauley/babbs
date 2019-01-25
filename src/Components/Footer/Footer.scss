@@ -1,11 +1,17 @@
+
 @import "../../master.scss";
 
 footer {
    background: $background_grey;
-   padding: 80px;
+   padding: $footer_padding;
    text-align: center;
    color: $text_grey;
    font-size: 14px;
+
+   position:absolute;
+   bottom:0;
+   width:100%;
+   box-sizing: border-box;
 
    a {
       color: inherit;

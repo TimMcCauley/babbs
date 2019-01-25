@@ -5,7 +5,8 @@
       "date": "5/1/2018",
       "external": false,
       "slug": "map-data-viz-design",
-      "categories": ["Data Viz", "Maps"]
+      "categories": ["Data Viz", "Maps"],
+      "link_text": "continue"
    },
    {
       "title": "Interactive Isoline Grid with HERE + Leaflet + React",
@@ -13,7 +14,8 @@
       "date": "1/16/2019",
       "external": true,
       "url": "https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet",
-      "categories": ["Code", "Maps"]
+      "categories": ["Code", "Maps"],
+      "link_text": "heredev"
    },
    {
       "title": "This holiday, use your mapping skills to help others",
@@ -21,7 +23,8 @@
       "date": "12/12/2018",
       "external": true,
       "url": "https://developer.here.com/blog/holiday-mapping-for-non-profits-with-xyz",
-      "categories": ["Code", "Maps"]
+      "categories": ["Code", "Maps"],
+      "link_text": "heredev"
    },
    {
       "title": "Location-aware Snapchat stickers with Snap Kit + HERE",
@@ -29,7 +32,8 @@
       "date": "6/27/2018",
       "external": true,
       "url": "https://developer.here.com/blog/here-maps-snap-kit",
-      "categories": ["Code", "Maps"]
+      "categories": ["Code", "Maps"],
+      "link_text": "heredev"
    },
    {
       "title": "Creating a location-aware chatbot with HERE & Twilio",
@@ -37,6 +41,7 @@
       "date": "12/04/2017",
       "external": true,
       "url": "https://developer.here.com/blog/creating-a-location-aware-chatbot-with-here-twilio",
-      "categories": ["Code", "Maps"]
+      "categories": ["Code", "Maps"],
+      "link_text": "heredev"
    }
 ]

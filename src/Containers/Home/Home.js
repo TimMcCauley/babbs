@@ -39,8 +39,8 @@ export default class Home extends React.Component {
 
 
 
-               <BlogTile writing={this.props.writing[0]}/>
-               <BlogTile writing={this.props.writing[1]}/>
+               <BlogTile image={true} blogPage={false} writing={this.props.writing[0]}/>
+               <BlogTile image={true} blogPage={false} writing={this.props.writing[1]}/>
                <Link to="/writing">
                   <Button color="light" text="View all writing" />
                </Link>

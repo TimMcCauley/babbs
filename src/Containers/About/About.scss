@@ -1,0 +1,35 @@
+.about {
+   .big {
+      width: 100vw;
+      max-width: 100%;
+      position: absolute;
+      background: black;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      left: 0;
+   }
+
+   .lead {
+      font-weight: 700;
+      font-size: 50px;
+      opacity: 0;
+      animation: 1s lead-animation;
+      animation-fill-mode: forwards;
+   }
+
+   @keyframes lead-animation {
+      0% {
+         opacity: 0;
+
+      }
+
+      100% {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
+}

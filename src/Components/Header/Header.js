@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default class Header extends React.Component {
    render() {
@@ -9,9 +9,9 @@ export default class Header extends React.Component {
          <header>
             <div className="inner">
                <Link className="left" to="/">Dylan Babbs</Link>
-               <Link className="right" to="/writing">Writing</Link>
-               <Link className="right" to="/projects">Projects</Link>
-               <Link className="right" to="/about">About</Link>
+               <NavLink className="right" to="/writing" activeClassName="active">Writing</NavLink>
+               <NavLink className="right" to="/projects" activeClassName="active">Projects</NavLink>
+               <NavLink className="right" to="/about" activeClassName="active">About</NavLink>
 
             </div>
          </header>
