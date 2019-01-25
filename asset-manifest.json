@@ -1,13 +1,13 @@
 {
-  "main.css": "/babbs/static/css/main.2046fca0.chunk.css",
-  "main.js": "/babbs/static/js/main.02971d0b.chunk.js",
-  "main.js.map": "/babbs/static/js/main.02971d0b.chunk.js.map",
-  "static/js/1.ef04635c.chunk.js": "/babbs/static/js/1.ef04635c.chunk.js",
-  "static/js/1.ef04635c.chunk.js.map": "/babbs/static/js/1.ef04635c.chunk.js.map",
+  "main.css": "/babbs/static/css/main.10fe31c1.chunk.css",
+  "main.js": "/babbs/static/js/main.15f2a2b2.chunk.js",
+  "main.js.map": "/babbs/static/js/main.15f2a2b2.chunk.js.map",
+  "static/js/1.8bcb8e72.chunk.js": "/babbs/static/js/1.8bcb8e72.chunk.js",
+  "static/js/1.8bcb8e72.chunk.js.map": "/babbs/static/js/1.8bcb8e72.chunk.js.map",
   "runtime~main.js": "/babbs/static/js/runtime~main.b16ebab4.js",
   "runtime~main.js.map": "/babbs/static/js/runtime~main.b16ebab4.js.map",
-  "static/css/main.2046fca0.chunk.css.map": "/babbs/static/css/main.2046fca0.chunk.css.map",
+  "static/css/main.10fe31c1.chunk.css.map": "/babbs/static/css/main.10fe31c1.chunk.css.map",
   "index.html": "/babbs/index.html",
-  "precache-manifest.a8599b19039cdb7b8b283e3ada89558d.js": "/babbs/precache-manifest.a8599b19039cdb7b8b283e3ada89558d.js",
+  "precache-manifest.1598ec71115e5c2d05db2640a45a275c.js": "/babbs/precache-manifest.1598ec71115e5c2d05db2640a45a275c.js",
   "service-worker.js": "/babbs/service-worker.js"
 }
