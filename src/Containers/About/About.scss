@@ -1,5 +1,6 @@
 $about_height: 400px;
 
+@import "../../master.scss";
 
 
 .about {
@@ -19,24 +20,68 @@ $about_height: 400px;
    .lead {
       font-weight: 700;
       font-size: 50px;
-      opacity: 0;
-      animation: 1s lead-animation;
-      animation-fill-mode: forwards;
    }
 
-   @keyframes lead-animation {
-      0% {
-         opacity: 0;
+
+
+   .rest {
+      padding-top: 440px;
+      padding-bottom: 40px;
+      margin: 0 40px;
+
+
+      .lead {
+         font-weight: 500;
+         font-size: 24px;
+         // text-align: center;
+         margin-bottom: 40px;
+         line-height: 40px;
 
       }
 
-      100% {
-         opacity: 1;
+      .info {
+         line-height: 25px;
+         color: $text_grey;
+         margin: 60px 0;
+      }
 
+      .grid-2x {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 40px;
+      }
+
+      .grid-1-2 {
+         display: grid;
+         grid-template-columns: 1fr 2fr;
+         // grid-gap: 40px;
+      }
+
+      .about-col {
+         display: grid;
+         grid-template-columns: 1fr 2fr;
+         margin: 20px 0;
+      }
+
+      .grid-3x {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 40px;
+      }
+
+      .title, .item {
+         margin: 10px 0;
+      }
+
+      .title {
+         font-weight: 500;
+      }
+
+      .item {
+         color: $text_grey;
       }
    }
 
 
 
 }
-   

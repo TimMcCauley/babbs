@@ -26,7 +26,7 @@ export default class Home extends React.Component {
                <div className="sublead">
                   Technologist based in Seattle, WA.
                </div>
-               <Socials />
+               <Socials margin={true}/>
             </div>
 
             <HomeProjectRow projects={[this.props.projects[0], this.props.projects[1]]}/>
