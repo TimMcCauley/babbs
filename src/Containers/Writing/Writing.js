@@ -40,9 +40,6 @@ export default class Writing extends React.Component {
 
    handleClick = (group, key) => {
 
-      console.log(group,key)
-
-
       const filterCopy = this.state.writing.filter(blog => {
          if (group === 'category') {
             return blog.categories.includes(key);
@@ -91,9 +88,6 @@ export default class Writing extends React.Component {
 
 
    render() {
-
-      console.log(this.state.categories)
-
       return (
          <div className="writing-container">
             <div className="writings-grid">

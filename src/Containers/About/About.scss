@@ -1,15 +1,18 @@
+$about_height: 400px;
+
+
+
 .about {
    .big {
       width: 100vw;
       max-width: 100%;
       position: absolute;
       background: black;
-      height: 400px;
+      height: $about_height;
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
-
       left: 0;
    }
 
@@ -29,7 +32,11 @@
 
       100% {
          opacity: 1;
-         transform: translateY(0px);
+
       }
    }
+
+
+
 }
+   

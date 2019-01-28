@@ -26,7 +26,6 @@ export default class Projects extends React.Component {
    handleClick = (category) => {
 
       const copyProj = this.state.projects.filter(proj => {
-         console.log(proj.categories)
          return proj.categories.includes(category)
       })
 
@@ -70,7 +69,6 @@ export default class Projects extends React.Component {
                      if (z.active) {
                         classes.push('selected');
                      }
-                     console.log(classes);
                      return (
                         <div
                            key={i}

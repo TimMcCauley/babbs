@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import {Route} from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 
 //Components
 import Header from './Components/Header/Header';
@@ -29,11 +29,12 @@ class App extends Component {
    }
 
    render() {
+      console.log(this.props.location.pathname)
       return (
          <div className="app">
             <Header />
             {
-               this.state.activeTab === 'home' &&
+               this.props.location.pathname === '/' &&
                <Banner
                   title="New Tutorial:  "
                   text="Interactive Isolines with HERE + React + Leaflet"
@@ -42,16 +43,15 @@ class App extends Component {
 
             }
             <div className="max">
-               <Route exact path="/" component={ () => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
+               <Route exact path="/" component={() => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
                <Route exact path="/about" component={() => <About/>}/>
                <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
                <Route exact path="/writing" component={() => <Writing writing={this.state.writing}/>}/>
-
-         </div>
+            </div>
             <Footer/>
          </div>
       );
    }
 }
 
-export default App;
+export default withRouter(App);
