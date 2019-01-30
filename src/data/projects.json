@@ -10,8 +10,8 @@
       "categories": ["Design", "Code"]
    },
    {
-      "title": "Social Innovation Chatbot",
-      "description": "Joint partnership between HERE and GCFD to developer a social good chatbot.",
+      "title": "GCFD Chatbot",
+      "description": "Joint partnership between HERE and the Greater Chicago Food Depository to develop a location-aware chatbot.",
       "content": true,
       "slug": "gcfd-chatbot",
       "external_slug": "https://360.here.com/connecting-in-need-chicago-residents-to-food-pantries-with-here",
