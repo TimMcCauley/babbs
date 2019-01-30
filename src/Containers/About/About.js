@@ -28,7 +28,7 @@ export default class About extends React.Component {
                      <div className="info">
                         <div>
                         Thanks for stopping by.
-                        I'm a 23 year old technologist in Seattle, Washington. The intersection of the physical world and the digital world fascinates me.
+                        I'm a 23-year-old technologist in Seattle, Washington. The intersection of the physical world and the digital world fascinates me.
                         </div>
                         <div>
                            Shoot me an email if you think there is something we should be doing together. Always interested in meeting up with some smart people to talk tech over coffee or beer.
