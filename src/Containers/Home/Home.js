@@ -35,7 +35,7 @@ export default class Home extends React.Component {
             <HomeNewsLetterRow />
 
             <div className="writings">
-               <h1 className="shiftRight">Writings</h1>
+               <h1 className="shiftRight">Writing</h1>
 
 
 
