@@ -22,9 +22,13 @@
 
       flex: 0 0 20%;
 
-      background: pink;
+      // background: pink;
       margin-right: 40px;
       border-radius: 3px;
+
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position:center;
    }
 
    .date {

@@ -24,10 +24,13 @@ export default class About extends React.Component {
                      </div>
 
                      <div className="info">
-                        Figuring out what's next.
-                        I enjoy map technologies and figuring out what's. I love trying out new technologies
-                        and exploring how I can contribute. oompa loompa or just whatever,
-                        I think i know what to do and why to do it. Feel free to reach out. Happy to grab coffee with anyone, anytime.
+                        <div>
+                        Thanks for stopping by.
+                        I'm a 23 year old technologist in Seattle, Washington. The intersection of the physical world and the digital world fascinates me.
+                        </div>
+                        <div>
+                           Shoot me an email if you think there is something we should be doing together. Always interested in meeting up with some smart people to talk tech over coffee or beer.
+                        </div>
                      </div>
 
 
@@ -64,8 +67,16 @@ export default class About extends React.Component {
                         </div>
                         <div>
                            <div className="item">JavaScript, React, HTML, CSS</div>
-                           <div className="item">Concept Prototyping</div>
-                           <div className="item">UX Engineering</div>
+                           <div className="item">MongoDB, Express</div>
+                           <div className="item">Python, R, SQL</div>
+                        </div>
+                     </div>
+                     <div className="about-col">
+                        <div className="title">
+                           Tools
+                        </div>
+                        <div>
+                           <div className="item">Sketch, Framer, Tableau, JIRA, Jupyter</div>
                         </div>
                      </div>
 
@@ -84,10 +95,10 @@ export default class About extends React.Component {
                            Awards
                         </div>
                         <div>
-                           <div className="item">Discover Hack Your Trip Hackathon, 2nd Place</div>
-                           <div className="item">PwC Cybersecurity Contest, 1st Place</div>
-                           <div className="item">HERE-Garmin Hackathon, 2nd Place (double check)</div>
-                           <div className="item">HERE Company Hackathon, Most Innovative (double check)</div>
+                           <div className="item">Discover Hack Your Trip Hackathon, 2nd Place, 2018</div>
+                           <div className="item">PwC Cybersecurity Contest, 1st Place, 2016</div>
+                           <div className="item">HERE-Garmin Hackathon, Most Innovative, 2015</div>
+                           <div className="item">HERE Company Hackathon, Best Cross Sight Collaboration, 2015</div>
                         </div>
                      </div>
 

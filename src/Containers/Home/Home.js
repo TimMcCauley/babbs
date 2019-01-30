@@ -42,7 +42,8 @@ export default class Home extends React.Component {
                <BlogTile image={true} blogPage={false} writing={this.props.writing[0]}/>
                <BlogTile image={true} blogPage={false} writing={this.props.writing[1]}/>
                <Link className="shiftRight" to="/writing">
-                  <Button  color="light" text="View all writing" />
+                  Next..
+                  <Button onClick={null} color="light" text="View all writing" />
                </Link>
 
             </div>

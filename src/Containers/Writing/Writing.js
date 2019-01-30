@@ -103,7 +103,9 @@ export default class Writing extends React.Component {
          <div className="writing-container">
             <div className="writings-grid">
                {
-                  this.state.filtered.map((writing, i) => <BlogTile image={false} blogPage={true} key={i} writing={writing} />)
+                  this.state.filtered
+                  .sort((a,b) =>  new Date(b.date) - new Date(a.date))
+                  .map((writing, i) => <BlogTile image={false} blogPage={true} key={i} writing={writing} />)
                }
             </div>
 

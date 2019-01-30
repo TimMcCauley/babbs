@@ -16,10 +16,7 @@ import Writing from './Containers/Writing/Writing';
 //Data
 import projects from './data/projects.json'
 import writing from './data/writing.json'
-
-
-const capitalize = (e) => e.charAt(0).toUpperCase() + e.slice(1);
-
+import { capitalize } from './shared';
 
 class App extends Component {
 

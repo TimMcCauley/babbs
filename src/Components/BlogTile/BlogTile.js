@@ -12,12 +12,16 @@ const BlogTile = (props) => {
    if (props.blogPage) {
       desc = desc.split(' ').slice(0, 40).join(' ') + '...';
    }
-
+   console.log(props.writing.img)
    return (
-      <div className="post">
+      <a href={props.writing.url} className="post">
          {
             props.image &&
-            <div className="block2"></div>
+            <div
+               className="block2"
+               style={{'backgroundImage': `url('img/${props.writing.img}')`}}
+            >
+            </div>
          }
 
          <div>
@@ -26,7 +30,7 @@ const BlogTile = (props) => {
             <div className="teaser">{desc}</div>
             <LearnMore text={props.writing.link_text} link="{props.writing.url || '/writings/' + props.writing.slug}"/>
          </div>
-      </div>
+      </a>
    )
 }
 

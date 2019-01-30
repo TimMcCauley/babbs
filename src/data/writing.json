@@ -5,6 +5,7 @@
       "date": "5/1/2018",
       "external": false,
       "slug": "map-data-viz-design",
+      "img": "map-data-viz-design.png",
       "categories": ["Data Viz", "Maps"],
       "link_text": "continue"
    },
@@ -13,6 +14,7 @@
       "description": "The HERE Routing API Isoline feature is great for calculating the area than can be reaching by traveling for a certain time or distance. A map isoline isn't just a normal circular radius, it is a radius calculated using the road network. For example, the following use cases can be solved with isoline routing:",
       "date": "1/16/2019",
       "external": true,
+      "img": "isoline-grid.gif",
       "url": "https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet",
       "categories": ["Code", "Maps"],
       "link_text": "heredev"
