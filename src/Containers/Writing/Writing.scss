@@ -1,23 +1,10 @@
 @import "../../master.scss";
 
-.gig {
-   position: absolute;
-   background: black;
-   color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 160px;
-   width: 100vw;
-   left: 0;
-   font-size: 30px;
-   font-weight: 500;
-   top: 58px;
-}
+
 .writing-container {
-   margin-top: 220px;
+
    display: flex;
-   padding: 220px 40 40 40px;
+   padding: 40px;
    transition: 1s all;
    animation: lead-animation .7s;
    // margin: 0 -20px;

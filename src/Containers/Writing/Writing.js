@@ -100,10 +100,6 @@ export default class Writing extends React.Component {
 
    render() {
       return (
-         <>
-         <div className="gig">
-            Writing
-         </div>
          <div className="writing-container">
             <div className="writings-grid">
                {
@@ -169,7 +165,6 @@ export default class Writing extends React.Component {
                }
             </div>
          </div>
-      </>
       )
    }
 }

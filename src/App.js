@@ -17,12 +17,15 @@ import Writing from './Containers/Writing/Writing';
 import projects from './data/projects.json'
 import writing from './data/writing.json'
 
+
+const capitalize = (e) => e.charAt(0).toUpperCase() + e.slice(1);
+
+
 class App extends Component {
 
    constructor(props) {
       super(props);
       this.state = {
-         activeTab: 'home',
          projects: projects,
          writing: writing
       }
@@ -41,6 +44,13 @@ class App extends Component {
                   link="https://here.com"
                />
 
+            }
+            {
+               (this.props.location.pathname === '/writing' ||
+               this.props.location.pathname === '/projects') &&
+               <div className="gig">
+                  {capitalize(this.props.location.pathname.substr(1))}
+               </div>
             }
             <div className="max">
                <Route exact path="/" component={() => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
