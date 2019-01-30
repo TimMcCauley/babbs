@@ -6,29 +6,20 @@
       "slug": "flightmapper",
       "external_slug": "https://flightmapper.io",
       "img": "flightmapper.png",
-      "link_text": "learn",
+      "link_text": "live-project",
       "categories": ["Design", "Code"]
    },
    {
-      "title": "Social Good Chatbot",
+      "title": "Social Innovation Chatbot",
       "description": "Joint partnership between HERE and GCFD to developer a social good chatbot.",
       "content": true,
       "slug": "gcfd-chatbot",
-      "external_slug": "https://developer.here.com",
+      "external_slug": "https://360.here.com/connecting-in-need-chicago-residents-to-food-pantries-with-here",
       "img": "gcfd-chatbot.png",
-      "link_text": "learn",
+      "link_text": "blog",
       "categories": ["Work", "Design"]
    },
-   {
-      "title": "Geospatial Company Index",
-      "description": "Database of 99+ Geospatial Companies",
-      "content": false,
-      "slug": "geospatial-company-index",
-      "external_slug": "",
-      "img": "geospatial-company-index.png",
-      "link_text": "website",
-      "categories": ["Research"]
-   },
+
    {
       "title": "Uber Visualized",
       "description": "Interactive map visualization of my Uber trips.",
@@ -91,7 +82,7 @@
    },
    {
       "title": "Uber iMessage Concept",
-      "description": "Concepts for iMessage integration into Uber.",
+      "description": "Concept for iMessage integration into Uber.",
       "content": false,
       "slug": "uber-imesssage-concept",
       "external_slug": "http://projects.dylanbabbs.com/uber-product.pdf",

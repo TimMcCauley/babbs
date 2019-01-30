@@ -3,14 +3,19 @@
 .carousel {
    display: grid;
    grid-template-columns: 1fr 1fr;
+   margin: 0 -20px;
    padding: 40px 40px 120px;
-   grid-gap: 40px;
+   grid-column-gap: 40px;
+   grid-row-gap: 20px;
    animation-name: carousel-animation;
    animation-duration: 1s;
    animation-delay: .7s;
    animation-fill-mode: forwards;
    opacity: 0;
 
+   .button-row {
+      margin-left: 20px;
+   }
 
    @keyframes carousel-animation {
       0% {

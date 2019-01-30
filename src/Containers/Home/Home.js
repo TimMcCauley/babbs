@@ -35,14 +35,14 @@ export default class Home extends React.Component {
             <HomeNewsLetterRow />
 
             <div className="writings">
-               <h1 style={{marginLeft: '20px'}}>Writings</h1>
+               <h1 className="shiftRight">Writings</h1>
 
 
 
                <BlogTile image={true} blogPage={false} writing={this.props.writing[0]}/>
                <BlogTile image={true} blogPage={false} writing={this.props.writing[1]}/>
-               <Link to="/writing">
-                  <Button color="light" text="View all writing" />
+               <Link className="shiftRight" to="/writing">
+                  <Button  color="light" text="View all writing" />
                </Link>
 
             </div>

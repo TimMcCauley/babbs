@@ -8,18 +8,42 @@ $about_height: 400px;
       width: 100vw;
       max-width: 100%;
       position: absolute;
-      background: black;
+      background-color: #202020;
       height: $about_height;
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       left: 0;
+      // background-image: url("./face2.png");
+      background-repeat:no-repeat;
+      background-size:contain;
+      background-position:center;
+
+      img {
+         height: 100%;
+         animation-name: fade;
+         animation-duration: 3s;
+         animation-fill-mode: forwards;
+         animation-timing-function: ease-out;
+      }
+
+      @keyframes fade {
+         0% {
+            opacity: 0;
+         }
+
+         100% {
+            opacity: 1;
+            transform: translateY(0px);
+         }
+      }
    }
 
    .lead {
       font-weight: 700;
       font-size: 50px;
+      margin-top: -6px;
    }
 
 

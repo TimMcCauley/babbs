@@ -10,7 +10,7 @@ const HomeProjectRow = (props) => {
       <div className="carousel">
          <ProjectTile project={props.projects[0]}/>
          <ProjectTile project={props.projects[1]}/>
-         <div>
+         <div className="button-row">
             <Link to="/projects">
                <Button color="light" text="View all projects" />
             </Link>

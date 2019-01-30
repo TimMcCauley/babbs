@@ -16,12 +16,19 @@ export default class Writing extends React.Component {
          filtered: this.props.writing,
          categories: [
             ...Array.from(new Set(
-               this.props.writing.map(x => monthNames[new Date(x.date).getMonth()] + ' ' + new Date(x.date).getFullYear()).flat()
+               this.props.writing.map(x => {
+                  return {
+                     date: new Date(x.date),
+                     label: monthNames[new Date(x.date).getMonth()] + ' ' + new Date(x.date).getFullYear()
+                  }
+               })
             )).map(x => {
                return {
-                  name: x,
+                  name: x.label,
                   active: false,
-                  group: 'date'
+                  group: 'date',
+                  date: x.date
+
                }
             }),
             ...Array.from(new Set(
@@ -86,9 +93,17 @@ export default class Writing extends React.Component {
       })
    }
 
+   // console.log(this.state.categories
+   //    .filter(x => x.group ==='date')
+   //    .sort((a,b) =>  new Date(b.date) - new Date(a.date))
+   // )
 
    render() {
       return (
+         <>
+         <div className="gig">
+            Writing
+         </div>
          <div className="writing-container">
             <div className="writings-grid">
                {
@@ -120,10 +135,11 @@ export default class Writing extends React.Component {
                   }
                </div>
                <div className="sidebar-group">
-                  <div className="title">Month</div>
+                  <div className="title">Date</div>
                   {
                      this.state.categories
                      .filter(x => x.group ==='date')
+                     .sort((a,b) =>  new Date(b.date) - new Date(a.date))
                      .map((x,i) => {
                         const classes = ['item'];
                         if (x.active) {
@@ -139,6 +155,8 @@ export default class Writing extends React.Component {
                            </div>
                         )
                      })
+
+
                   }
                </div>
                {
@@ -151,6 +169,7 @@ export default class Writing extends React.Component {
                }
             </div>
          </div>
+      </>
       )
    }
 }
