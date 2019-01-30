@@ -4,7 +4,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin: 0 -20px;
-   padding: 40px 40px 120px;
+   padding: 40px 40px 120px 40px;
    grid-column-gap: 40px;
    grid-row-gap: 20px;
    animation-name: carousel-animation;
@@ -15,6 +15,7 @@
 
    @media only screen and (max-width: #{$mobile-width}) {
       grid-template-columns: 1fr;
+      grid-column-gap: 0px;
    }
 
    .button-row {
