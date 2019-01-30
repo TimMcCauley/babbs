@@ -3,8 +3,8 @@
 .carousel {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   margin: 0 -20px;
-   padding: 40px 40px 120px 40px;
+   // margin: 0 -20px;
+   padding: 40px 20px 120px 20px;
    grid-column-gap: 40px;
    grid-row-gap: 20px;
    animation-name: carousel-animation;
@@ -12,6 +12,7 @@
    animation-delay: .7s;
    animation-fill-mode: forwards;
    opacity: 0;
+   // box-sizing: border-box;
 
    @media only screen and (max-width: #{$mobile-width}) {
       grid-template-columns: 1fr;

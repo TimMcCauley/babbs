@@ -8,6 +8,12 @@
    transition: 1s all;
    animation: lead-animation .7s;
 
+
+   @media only screen and (min-width: #{$mobile-width}) {
+      margin: 0 -20px;
+   }
+
+
    @media only screen and (max-width: #{$mobile-width}) {
       flex-direction: column;
       padding: 10px 10px;

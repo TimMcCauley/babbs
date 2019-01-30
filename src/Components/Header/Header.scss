@@ -10,7 +10,14 @@ header {
       max-width: $max_width;
       margin: auto;
       box-sizing: border-box;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         padding: 20px;
+         // background: green;
+      }
    }
+
+
 }
 
 a {
@@ -26,11 +33,11 @@ a {
 .right {
    float: right;
    color: $text_grey;
-   padding-left: 30px;
+   margin-left: 30px;
    font-size: 15px;
 
    @media only screen and (max-width: #{$mobile-width}) {
-      padding-left: 15px;
+      margin-left: 15px;
    }
 }
 
