@@ -32,5 +32,10 @@
       width: 60%;
       margin: auto;
       max-width: calc(#{$max_width} - 100px);
+      flex-direction: row;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         flex-direction: column;
+      }
    }
 }

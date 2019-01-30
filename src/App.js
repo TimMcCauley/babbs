@@ -45,8 +45,17 @@ class App extends Component {
             {
                (this.props.location.pathname === '/writing' ||
                this.props.location.pathname === '/projects') &&
-               <div className="gig">
+               <div className="big">
                   {capitalize(this.props.location.pathname.substr(1))}
+               </div>
+            }
+            {
+               this.props.location.pathname === '/about' &&
+               <div
+                  className="about-big"
+
+                  >
+                  <img src="face2.png" alt="my face [very large]" />
                </div>
             }
             <div className="max">

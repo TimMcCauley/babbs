@@ -12,7 +12,7 @@ const HomeNewsLetterRow = () => {
          </div>
          <div className="field-container">
             <Input />
-            <div style={{width: '10px'}} />
+            <div style={{width: '10px', height: '10px'}} />
             <Button color="dark" text="Submit" />
          </div>
       </div>

@@ -8,6 +8,10 @@
    transition: 1s all;
    animation: lead-animation .7s;
 
+   @media only screen and (max-width: #{$mobile-width}) {
+      flex-direction: column;
+      padding: 10px 10px;
+   }
 
    .writings-grid {
 
@@ -19,10 +23,18 @@
       // background: pink;
       padding-left: 40px;
 
+      @media only screen and (max-width: #{$mobile-width}) {
+         padding-left: 20px;
+      }
+
       float: right;
 
       .sidebar-group {
          margin-top: 40px;
+
+         @media only screen and (max-width: #{$mobile-width}) {
+            margin-top: 0;
+         }
       }
 
       .title {

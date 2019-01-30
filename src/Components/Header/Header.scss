@@ -28,6 +28,10 @@ a {
    color: $text_grey;
    padding-left: 30px;
    font-size: 15px;
+
+   @media only screen and (max-width: #{$mobile-width}) {
+      padding-left: 15px;
+   }
 }
 
 .right:hover {

@@ -13,6 +13,10 @@
    animation-fill-mode: forwards;
    opacity: 0;
 
+   @media only screen and (max-width: #{$mobile-width}) {
+      grid-template-columns: 1fr;
+   }
+
    .button-row {
       margin-left: 20px;
    }

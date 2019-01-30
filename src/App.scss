@@ -30,7 +30,7 @@ h3 {
    margin: 15px 0;
 }
 
-.gig {
+.big, .about-big {
    background: #202020;
    color: white;
    display: flex;
@@ -42,6 +42,36 @@ h3 {
    font-weight: 500;
 
    // animation: lead-animation .7s;
+}
+
+
+.about-big {
+
+   background-repeat:no-repeat;
+   background-size:contain;
+   background-position:center;
+   height: 400px;
+
+   // animation: lead-animation .7s;
+
+   img {
+      height: 100%;
+      animation-name: fade;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+   }
+
+   @keyframes fade {
+      0% {
+         opacity: 0;
+      }
+
+      100% {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
 }
 
 @keyframes lead-animation {

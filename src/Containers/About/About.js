@@ -1,17 +1,19 @@
 import React from 'react';
 import './About.scss';
 import Socials from '../../Components/Socials/Socials'
+/*
+<div className="big">
+   <img src="face2.png" />
 
+</div>
+*/
 export default class About extends React.Component {
 
    render() {
 
       return (
          <div className="about">
-            <div className="big">
-               <img src="face2.png" />
 
-            </div>
             <div className="rest">
                <div className="grid-1-2">
                   <div>
