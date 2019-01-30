@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/babbs/static/js/runtime~main.b16ebab4.js"
   },
   {
-    "revision": "1e16c168105d107b4b15",
-    "url": "/babbs/static/js/main.1e16c168.chunk.js"
+    "revision": "374074a16d1aa3d9ed6d",
+    "url": "/babbs/static/js/main.374074a1.chunk.js"
   },
   {
     "revision": "5b72f3e37904a860090d",
     "url": "/babbs/static/js/1.5b72f3e3.chunk.js"
   },
   {
-    "revision": "1e16c168105d107b4b15",
-    "url": "/babbs/static/css/main.22200b86.chunk.css"
+    "revision": "374074a16d1aa3d9ed6d",
+    "url": "/babbs/static/css/main.7fb122b9.chunk.css"
   },
   {
-    "revision": "e199a2ce436e7eb6ce44dbeca693ef70",
+    "revision": "77123ff999b4b4f0178ae914a0bcaffe",
     "url": "/babbs/index.html"
   }
 ];
