@@ -38,9 +38,10 @@ export default class Home extends React.Component {
                <h1 className="shiftRight">Writing</h1>
 
 
-
-               <BlogTile image={true} blogPage={false} writing={this.props.writing[0]}/>
-               <BlogTile image={true} blogPage={false} writing={this.props.writing[1]}/>
+               {
+                  this.props.writing.filter(x => x.featured)
+                  .map((x,i) => <BlogTile key={i} image={true} blogPage={false} writing={x}/>)
+               }
                <Link className="shiftRight" to="/writing">
                   <Button onClick={null} color="light" text="View all writing" />
                </Link>

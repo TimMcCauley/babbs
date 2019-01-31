@@ -7,7 +7,8 @@
       "slug": "map-data-viz-design",
       "img": "map-data-viz-design.png",
       "categories": ["Data Viz", "Maps"],
-      "link_text": "continue"
+      "link_text": "continue",
+      "featured": true
    },
    {
       "title": "Interactive Isoline Grid with HERE + Leaflet + React",
@@ -17,7 +18,8 @@
       "img": "isoline-grid.gif",
       "url": "https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet",
       "categories": ["Code", "Maps"],
-      "link_text": "heredev"
+      "link_text": "heredev",
+      "featured": "true"
    },
    {
       "title": "This holiday, use your mapping skills to help others",

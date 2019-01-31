@@ -29,7 +29,7 @@ class App extends Component {
    }
 
    render() {
-      console.log(this.props.location.pathname)
+      console.log(this.state.writing)
       return (
          <div className="app">
             <Header />
