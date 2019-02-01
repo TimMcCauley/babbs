@@ -8,7 +8,8 @@
       "img": "map-data-viz-design.png",
       "categories": ["Data Viz", "Maps"],
       "link_text": "continue",
-      "featured": true
+      "featured": true,
+      "url": "http://dylanbabbs.com/map-data-viz-design/"
    },
    {
       "title": "Interactive Isoline Grid with HERE + Leaflet + React",

@@ -38,4 +38,20 @@
          flex-direction: column;
       }
    }
+
+   .error-message {
+      padding-top: 20px;
+      color: #E4564A;
+      // opacity: 0;
+      font-weight: 500;
+      // transition: 1s all;
+   }
+
+   .success-message {
+      padding-top: 20px;
+      color: #62C165;
+      font-weight: 500;
+      // opacity: 0;
+      // transition: 1s all;
+   }
 }

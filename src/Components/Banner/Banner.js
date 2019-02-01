@@ -6,7 +6,7 @@ const Banner = (props) => {
    return (
       <div className="banner">
          <span className="bold">{props.title}</span>
-         <a href={props.link} className="light-link">{props.text}</a>
+         <a target="_blank" rel="noopener noreferrer" href={props.link} className="light-link">{props.text}</a>
       </div>
    )
 }

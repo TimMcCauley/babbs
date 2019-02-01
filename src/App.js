@@ -12,6 +12,7 @@ import Home from './Containers/Home/Home';
 import About from './Containers/About/About';
 import Projects from './Containers/Projects/Projects';
 import Writing from './Containers/Writing/Writing';
+import Post from './Containers/Post/Post';
 
 //Data
 import projects from './data/projects.json'
@@ -29,7 +30,7 @@ class App extends Component {
    }
 
    render() {
-      console.log(this.state.writing)
+      console.log(this.props);
       return (
          <div className="app">
             <Header />
@@ -38,12 +39,12 @@ class App extends Component {
                <Banner
                   title="New Tutorial:  "
                   text="Interactive Isolines with HERE + React + Leaflet"
-                  link="https://here.com"
+                  link="https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet"
                />
 
             }
             {
-               (this.props.location.pathname === '/writing' ||
+               (this.props.location.pathname.includes('/writing') ||
                this.props.location.pathname === '/projects') &&
                <div className="big">
                   {capitalize(this.props.location.pathname.substr(1))}
@@ -62,7 +63,8 @@ class App extends Component {
                <Route exact path="/" component={() => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
                <Route exact path="/about" component={() => <About/>}/>
                <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
-               <Route exact path="/writing" component={() => <Writing writing={this.state.writing}/>}/>
+               <Route exact path="/writing/" component={() => <Writing writing={this.state.writing}/>}/>
+               <Route exact path="/writing/:id/" component={Post}/>
             </div>
             <Footer/>
          </div>
