@@ -30,7 +30,12 @@ const ProjectTile = (props) => {
          <a target="_blank" rel="noopener noreferrer" href={props.project.external_slug} className="project">
             <div
                className="block"
-               style={{'backgroundImage': `url('img/${props.project.img}')`}}
+               style={
+                  {
+                     'backgroundImage': `url('img/${props.project.img}')`,
+                     'backgroundColor': props.project.background
+                  }
+               }
             >
             </div>
 

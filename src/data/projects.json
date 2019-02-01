@@ -7,7 +7,8 @@
       "external_slug": "https://flightmapper.io",
       "img": "flightmapper.png",
       "link_text": "live-project",
-      "categories": ["Design", "Code"]
+      "categories": ["Design", "Code"],
+      "background": "#14181B"
    },
    {
       "title": "GCFD Chatbot",
@@ -17,7 +18,8 @@
       "external_slug": "https://360.here.com/connecting-in-need-chicago-residents-to-food-pantries-with-here",
       "img": "gcfd-chatbot.png",
       "link_text": "blog",
-      "categories": ["Work", "Design"]
+      "categories": ["Work", "Design"],
+      "background": "#00B1A4"
    },
 
    {
@@ -28,7 +30,8 @@
       "external_slug": "http://projects.dylanbabbs.com/uber-visualized/",
       "img": "uber-visualized.png",
       "link_text": "live-project",
-      "categories": ["Design", "Code", "Data"]
+      "categories": ["Design", "Code", "Data"],
+      "background": "#080713"
    },
    {
       "title": "Croporama",
@@ -38,7 +41,8 @@
       "external_slug": "https://itunes.apple.com/us/app/waruc-washington-road-usage-charge-pilot/id1240657572?mt=8",
       "img": "croporama.png",
       "link_text": "appstore",
-      "categories": ["Design", "Code"]
+      "categories": ["Design", "Code"],
+      "background": "#F6F6F6"
    },
    {
       "title": "Polygon Boundary Query API",
@@ -48,7 +52,8 @@
       "external_slug": "https://github.com/dbabbs/query-geojson-polygons",
       "img": "query-polygon-api.png",
       "link_text": "github",
-      "categories": ["Code"]
+      "categories": ["Code"],
+      "background": "#FFB4C4"
    },
    {
       "title": "WA Road Usage Charge",
@@ -58,7 +63,8 @@
       "external_slug": "https://itunes.apple.com/us/app/waruc-washington-road-usage-charge-pilot/id1240657572?mt=8",
       "img": "waruc.png",
       "link_text": "learn",
-      "categories": ["Design", "Code", "Coursework"]
+      "categories": ["Design", "Code", "Coursework"],
+      "background": "#201E31"
    },
    {
       "title": "Jasper Smart Mirror",
@@ -68,7 +74,8 @@
       "external_slug": "https://courses.cs.washington.edu/courses/cse440/17wi/projects/jasper/",
       "img": "jasper.png",
       "link_text": "website",
-      "categories": ["Design", "Coursework"]
+      "categories": ["Design", "Coursework"],
+      "background": "#000000"
    },
    {
       "title": "UW Course Sequence Explorer",
@@ -78,7 +85,8 @@
       "external_slug": "http://cse512-16s.github.io/fp-dbabbs-jordanstarkey95/",
       "img": "uw-course-viz.png",
       "link_text": "website",
-      "categories": ["Design", "Data", "Coursework"]
+      "categories": ["Design", "Data", "Coursework"],
+      "background": "#38249A"
    },
    {
       "title": "Uber iMessage Concept",
@@ -88,7 +96,8 @@
       "external_slug": "http://projects.dylanbabbs.com/uber-product.pdf",
       "img": "uber-imesssage-concept.png",
       "link_text": "presentation",
-      "categories": ["Design", "Data", "Coursework"]
+      "categories": ["Design", "Data", "Coursework"],
+      "background": "#9E000D"
    }
 
 ]
