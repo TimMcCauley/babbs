@@ -32,8 +32,8 @@ const ProjectTile = (props) => {
                className="block"
                style={
                   {
+                     'backgroundColor': props.project.background,
                      'backgroundImage': `url('img/${props.project.img}')`,
-                     'backgroundColor': props.project.background
                   }
                }
             >
