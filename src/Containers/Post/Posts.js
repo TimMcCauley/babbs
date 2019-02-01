@@ -7,7 +7,7 @@ export const IntroMapDataViz = () => {
        from coordinates (latitude, longitude) to street addresses to zip codes to country names.
      </p>
      <p>With the shear amounts of location data being produced, it’s crucial to retain the ability to derive value from one’s data, to separate the signal from the noise. Data visualization can provide this.</p>
-     <img src="header.png" alt="header" className="full" />
+     <img src="img/map-data-viz-design/header.png" alt="header" className="full" />
      <p className="caption">New York City taxi pickup points and routes.</p>
      <p>With so many tools available, it’s easy to begin visualizing location-based data. This guide will cover the core elements of map data visualization design: data types, map styling, visualization types, encodings, and tips.</p>
      <h1 id="basic">Basic</h1>
