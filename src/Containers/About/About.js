@@ -69,7 +69,7 @@ export default class About extends React.Component {
                         </div>
                         <div>
                            <div className="item">JavaScript, React, HTML, CSS</div>
-                           <div className="item">MongoDB, Express</div>
+                           <div className="item">MongoDB, Express, Node</div>
                            <div className="item">Python, R, SQL</div>
                         </div>
                      </div>

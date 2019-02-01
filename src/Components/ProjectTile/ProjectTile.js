@@ -3,6 +3,8 @@ import './ProjectTile.scss';
 import LearnMore from '../LearnMore/LearnMore';
 import { Link } from 'react-router-dom';
 
+import ProgressiveImage from '../ProgressiveImage/ProgressiveImage';
+
 const ProjectTile = (props) => {
    // const link = '';
    // let jsx;
@@ -31,6 +33,15 @@ const ProjectTile = (props) => {
                style={{'backgroundImage': `url('img/${props.project.img}')`}}
             >
             </div>
+
+            {/*
+               <ProgressiveImage
+                  className="block2"
+                  preview={tiny}
+                  image={normal}
+               />*/
+            }
+
             <h3>
                {props.project.title}
             </h3>
