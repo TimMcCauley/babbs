@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import { Route, withRouter } from "react-router-dom";
+import { Route, withRouter, Switch } from "react-router-dom";
 
 //Components
 import Header from './Components/Header/Header';
@@ -13,11 +13,13 @@ import About from './Containers/About/About';
 import Projects from './Containers/Projects/Projects';
 import Writing from './Containers/Writing/Writing';
 import Post from './Containers/Post/Post';
+import FourOhFour from './Containers/FourOhFour/FourOhFour';
 
 //Data
 import projects from './data/projects.json'
 import writing from './data/writing.json'
 import { capitalize } from './shared';
+import { postLookup } from './Containers/Post/Post';
 
 class App extends Component {
 
@@ -31,6 +33,8 @@ class App extends Component {
 
    render() {
       console.log(this.props);
+      const urlSplits = this.props.location.pathname.split('/')
+      const urlEnd = urlSplits[urlSplits.length - 1];
       return (
          <div className="app">
             <Header />
@@ -44,27 +48,39 @@ class App extends Component {
 
             }
             {
-               (this.props.location.pathname.includes('/writing') ||
-               this.props.location.pathname === '/projects') &&
+               this.props.location.pathname.includes('/writing') &&
+               postLookup[urlEnd] &&
+               <div className="big">
+                  {postLookup[urlEnd].title}
+               </div>
+            }
+            {
+               (
+                  (
+                     this.props.location.pathname.includes('/writing') ||
+                     this.props.location.pathname === '/projects'
+                  ) &&
+                  !postLookup[urlEnd]
+               ) &&
                <div className="big">
                   {capitalize(this.props.location.pathname.substr(1))}
                </div>
             }
             {
                this.props.location.pathname === '/about' &&
-               <div
-                  className="about-big"
-
-                  >
+               <div className="about-big">
                   <img src="face2.png" alt="my face [very large]" />
                </div>
             }
             <div className="max">
-               <Route exact path="/" component={() => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
-               <Route exact path="/about" component={() => <About/>}/>
-               <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
-               <Route exact path="/writing/" component={() => <Writing writing={this.state.writing}/>}/>
-               <Route exact path="/writing/:id/" component={Post}/>
+               <Switch>
+                  <Route exact path="/" component={() => <Home projects={this.state.projects} writing={this.state.writing}/>}/>
+                  <Route exact path="/about" component={() => <About/>}/>
+                  <Route exact path="/projects" component={() => <Projects projects={this.state.projects}/>}/>
+                  <Route exact path="/writing/" component={() => <Writing writing={this.state.writing}/>}/>
+                  <Route exact path="/writing/:id/" component={Post}/>
+                  <Route component={FourOhFour} />
+               </Switch>
             </div>
             <Footer/>
          </div>

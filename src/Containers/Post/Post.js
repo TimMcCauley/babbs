@@ -1,9 +1,12 @@
 import React from 'react';
 import './Post.scss';
-import { IntroMapDataViz } from './Posts';
+import { MapDataVizDesign } from './MapDataVizDesign/MapDataVizDesign';
 
-const lookup = {
-   'map-data-viz-design': <IntroMapDataViz />
+export const postLookup = {
+   'map-data-viz-design': {
+      content: <MapDataVizDesign />,
+      title: 'Intro to Map Data Viz Design'
+   }
 }
 const Post = (props) => {
    const post = props.match.params.id;
@@ -11,7 +14,7 @@ const Post = (props) => {
    return (
       <div className="post-container">
          {
-            lookup[post]
+            postLookup[post].content
          }
       </div>
    )
