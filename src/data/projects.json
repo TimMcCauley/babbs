@@ -67,6 +67,17 @@
       "background": "#201E31"
    },
    {
+      "title": "Uber iMessage Concept",
+      "description": "Concept for iMessage integration into Uber.",
+      "content": false,
+      "slug": "uber-imesssage-concept",
+      "external_slug": "http://files.dylanbabbs.com/uber-product.pdf",
+      "img": "uber-imesssage-concept.png",
+      "link_text": "presentation",
+      "categories": ["Design", "Data", "Coursework"],
+      "background": "#9E000D"
+   },
+   {
       "title": "Jasper Smart Mirror",
       "description": "Smart mirror to assist with wardrobe management.",
       "content": false,
@@ -87,17 +98,7 @@
       "link_text": "website",
       "categories": ["Design", "Data", "Coursework"],
       "background": "#38249A"
-   },
-   {
-      "title": "Uber iMessage Concept",
-      "description": "Concept for iMessage integration into Uber.",
-      "content": false,
-      "slug": "uber-imesssage-concept",
-      "external_slug": "http://files.dylanbabbs.com/uber-product.pdf",
-      "img": "uber-imesssage-concept.png",
-      "link_text": "presentation",
-      "categories": ["Design", "Data", "Coursework"],
-      "background": "#9E000D"
    }
+
 
 ]

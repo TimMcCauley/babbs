@@ -28,6 +28,7 @@ $about_height: 400px;
 
          @media only screen and (max-width: #{$mobile-width}) {
             margin: 40px 0;
+
          }
 
       }
@@ -57,6 +58,7 @@ $about_height: 400px;
 
          @media only screen and (max-width: #{$mobile-width}) {
             grid-template-columns: 1fr;
+            margin: 0 -20px;
          }
       }
 

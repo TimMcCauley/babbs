@@ -21,6 +21,9 @@ import writing from './data/writing.json'
 import { capitalize } from './shared';
 import { postLookup } from './Containers/Post/Post';
 
+//Image
+import face from './face.png'
+
 class App extends Component {
 
    constructor(props) {
@@ -69,7 +72,7 @@ class App extends Component {
             {
                this.props.location.pathname === '/about' &&
                <div className="about-big">
-                  <img src="face2.png" alt="my face [very large]" />
+                  <img src={face} alt="my face [very large]" />
                </div>
             }
             <div className="max">

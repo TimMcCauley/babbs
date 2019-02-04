@@ -11,7 +11,8 @@ export default class HomeNewsLetterRow extends React.Component {
       this.state = {
          value: '',
          errorMessage: '',
-         success: false
+         success: false,
+         buttonText: 'Submit'
       }
    }
 
@@ -24,6 +25,9 @@ export default class HomeNewsLetterRow extends React.Component {
       if (!this.state.value.includes('@')) {
          this.setState({errorMessage: 'Please enter a valid email address.'})
       } else {
+         this.setState({
+            buttonText: 'Loading'
+         })
          fetch('https://mysterious-oasis-69747.herokuapp.com/submit', {
             method: "POST",
             mode: 'cors',
@@ -35,6 +39,9 @@ export default class HomeNewsLetterRow extends React.Component {
             .then(res => res.json())
             .then(res => {
                console.log(res);
+               this.setState({
+                  buttonText: 'Submit'
+               })
                if (res.hasOwnProperty('success')) {
                   if (res.success === true) {
                      this.setState({
@@ -78,7 +85,7 @@ export default class HomeNewsLetterRow extends React.Component {
                   }}/>
                <Button
                   color="dark"
-                  text="Submit"
+                  text={this.state.buttonText}
                   onClick={this.handleSubmit}
                />
             </div>

@@ -28,10 +28,10 @@ export default class About extends React.Component {
                      <div className="info">
                         <div>
                         Thanks for stopping by.
-                        I'm a 23-year-old technologist in Seattle, Washington. The intersection of the physical world and the digital world fascinates me.
+                        I'm a 23-year-old technologist in Seattle, Washington. I'm fascinated by the intersection of the physical and the digital world.
                         </div>
                         <div>
-                           Shoot me an email if you think there is something we should be doing together. Always interested in meeting up with some smart people to chat over coffee or beer.
+                           Shoot me an email if you think there is something we should be doing together. Always interested in meeting up with smart people to chat.
                         </div>
                      </div>
 
@@ -69,7 +69,7 @@ export default class About extends React.Component {
                         </div>
                         <div>
                            <div className="item">JavaScript, React, HTML, CSS</div>
-                           <div className="item">MongoDB, Express, Node</div>
+                           <div className="item">Mongo, Express, Node</div>
                            <div className="item">Python, R, SQL</div>
                         </div>
                      </div>
@@ -89,18 +89,18 @@ export default class About extends React.Component {
                         <div>
                            <div className="item">Web Mapping & Visualization: #Map_IT Hackathon, Warsaw, Poland, 2018</div>
                            <div className="item">Web Mapping & Visualization: HacknBreak, Izmir Turkey, 2018</div>
-                           <div className="item">Tableau Visualization: UW Technical Foundations of Informatics, 2017</div>
+                           <div className="item">Tableau Visualization: UW Technical Foundations of Informatics, Seattle, WA, 2017</div>
                         </div>
                      </div>
                      <div className="about-col">
                         <div className="title">
-                           Awards
+                           Hackathon Awards
                         </div>
                         <div>
                            <div className="item">Discover Hack Your Trip Hackathon, 2nd Place, 2018</div>
                            <div className="item">PwC Cybersecurity Contest, 1st Place, 2016</div>
                            <div className="item">HERE-Garmin Hackathon, Most Innovative, 2015</div>
-                           <div className="item">HERE Company Hackathon, Best Cross Sight Collaboration, 2015</div>
+                           <div className="item">HERE Company Hackathon, Best Cross Site Collaboration, 2015</div>
                         </div>
                      </div>
 
