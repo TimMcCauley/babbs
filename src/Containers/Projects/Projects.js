@@ -23,6 +23,11 @@ export default class Projects extends React.Component {
       }
    }
 
+   componentDidMount() {
+     document.title = 'Projects - Dylan Babbs';
+   }
+
+
    handleClick = (category) => {
 
       const copyProj = this.state.projects.filter(proj => {

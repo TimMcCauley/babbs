@@ -45,6 +45,10 @@ export default class Writing extends React.Component {
       }
    }
 
+   componentDidMount() {
+     document.title = 'Writing - Dylan Babbs';
+   }
+
    handleClick = (group, key) => {
 
       const filterCopy = this.state.writing.filter(blog => {

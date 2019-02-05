@@ -9,6 +9,10 @@ import Socials from '../../Components/Socials/Socials'
 */
 export default class About extends React.Component {
 
+  componentDidMount() {
+    document.title = 'About - Dylan Babbs';
+  }
+
    render() {
 
       return (

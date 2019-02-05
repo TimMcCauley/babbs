@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import {BrowserRouter as Router, withRouter} from "react-router-dom";
+import { ga as GoogleAnalytics } from './shared';
 
 class ScrollToTop extends React.Component {
    componentDidUpdate(prevProps) {
