@@ -27,7 +27,7 @@
       "description": "Interactive map visualization of my Uber trips.",
       "content": false,
       "slug": "uber-visualized",
-      "external_slug": "http://projects.dylanbabbs.com/uber-visualized/",
+      "external_slug": "http://dbabbs.github.io/uber-visualized/",
       "img": "uber-visualized.png",
       "link_text": "live-project",
       "categories": ["Design", "Code", "Data"],
