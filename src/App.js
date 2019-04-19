@@ -44,9 +44,9 @@ class App extends Component {
             {
                this.props.location.pathname === '/' &&
                <Banner
-                  title="New Tutorial:  "
-                  text="Interactive Isolines with HERE + React + Leaflet"
-                  link="https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet"
+                  title="New Map:  "
+                  text="Plan your next Boston bar crawl with isoline routing"
+                  link="https://dbabbs.github.io/boston-liquor/"
                />
 
             }

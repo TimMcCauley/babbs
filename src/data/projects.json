@@ -7,7 +7,7 @@
       "external_slug": "https://flightmapper.io",
       "img": "flightmapper.png",
       "link_text": "live-project",
-      "categories": ["Design", "Code"],
+      "categories": ["Design", "Code", "Maps"],
       "background": "#14181B"
    },
    {
@@ -30,8 +30,30 @@
       "external_slug": "http://dbabbs.github.io/uber-visualized/",
       "img": "uber-visualized.png",
       "link_text": "live-project",
-      "categories": ["Design", "Code", "Data"],
+      "categories": ["Design", "Code", "Data", "Maps"],
       "background": "#080713"
+   },
+   {
+      "title": "Boston Liquor Licenses",
+      "description": "Explore nearby Boston bars within walking distance.",
+      "content": false,
+      "slug": "boston-liquor",
+      "external_slug": "http://dbabbs.github.io/boston-liquor/",
+      "img": "boston-liquor.png",
+      "link_text": "live-project",
+      "categories": ["Design", "Code", "Data", "Maps"],
+      "background": "#DDE1E3"
+   },
+   {
+      "title": "Chicago Bike Map",
+      "description": "Explore Chicago neighborhoods by bike path distance.",
+      "content": false,
+      "slug": "chicago-bike-map",
+      "external_slug": "http://dbabbs.github.io/chicago-bike-map/",
+      "img": "chicago-bike-map.png",
+      "link_text": "live-project",
+      "categories": ["Design", "Code", "Data", "Maps"],
+      "background": "#171A1A"
    },
    {
       "title": "Croporama",
@@ -52,7 +74,7 @@
       "external_slug": "https://github.com/dbabbs/query-geojson-polygons",
       "img": "query-polygon-api.png",
       "link_text": "github",
-      "categories": ["Code"],
+      "categories": ["Code", "Maps"],
       "background": "#FFB4C4"
    },
    {
@@ -99,6 +121,4 @@
       "categories": ["Design", "Data", "Coursework"],
       "background": "#38249A"
    }
-
-
 ]
