@@ -11,6 +11,17 @@
       "background": "#14181B"
    },
    {
+      "title": "Mobility Map",
+      "description": "An interactive visualization of my Uber, Lime, Jump, and Lyft trips.",
+      "content": true,
+      "slug": "mobility-map",
+      "external_slug": "https://dbabbs.github.io/mobility-map",
+      "img": "mobility-map.png",
+      "link_text": "live-project",
+      "categories": ["Design", "Code", "Maps"],
+      "background": "#EDEDED"
+   },
+   {
       "title": "GCFD Chatbot",
       "description": "Joint partnership between HERE and the Greater Chicago Food Depository to develop a location-aware chatbot.",
       "content": true,
