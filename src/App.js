@@ -44,9 +44,9 @@ class App extends Component {
             {
                this.props.location.pathname === '/' &&
                <Banner
-                  title="New Map:  "
-                  text="Plan your next Boston bar crawl with isoline routing"
-                  link="https://dbabbs.github.io/boston-liquor/"
+                  title=""
+                  text="Watch my recent talk at Seattle JS about isoline routing"
+                  link="https://www.youtube.com/watch?v=p7jKHn4HSeQ"
                />
 
             }
