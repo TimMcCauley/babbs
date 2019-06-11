@@ -1,5 +1,17 @@
 [
    {
+      "title": "Watch my talk at Seattle JS about isoline routing",
+      "description": "A few weeks ago I spoke at the Seattle JavaScript meetup about isoline routing.",
+      "date": "6/11/2019",
+      "external": false,
+      "slug": "seattle-js-isoline-routing",
+      "img": "seattle-js-isoline-routing.png",
+      "categories": ["Data Viz", "Maps"],
+      "link_text": "continue",
+      "featured": true,
+      "url": "http://dylanbabbs.com/seattle-js-isoline-routing/"
+   },
+   {
       "title": "Intro to Map Data Visualization Design",
       "description": "Location is everything. It’s estimated that nearly 80% of all data produced contains location elements. But what exactly is location data? Location data can include anything from coordinates (latitude, longitude) to street addresses to zip codes to country names.",
       "date": "5/1/2018",

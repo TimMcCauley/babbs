@@ -46,7 +46,7 @@ class App extends Component {
                <Banner
                   title=""
                   text="Watch my recent talk at Seattle JS about isoline routing"
-                  link="https://www.youtube.com/watch?v=p7jKHn4HSeQ"
+                  link="/writing/seattle-js-isoline-routing"
                />
 
             }
