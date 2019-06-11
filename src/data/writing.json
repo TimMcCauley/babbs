@@ -5,7 +5,7 @@
       "date": "6/11/2019",
       "external": false,
       "slug": "seattle-js-isoline-routing",
-      "img": "seattle-js-isoline-routing.png",
+      "img": "seattle-js-isoline-routing.gif",
       "categories": ["Data Viz", "Maps"],
       "link_text": "continue",
       "featured": true,
@@ -32,7 +32,7 @@
       "url": "https://developer.here.com/blog/interactive-isoline-grid-with-here-react-leaflet",
       "categories": ["Code", "Maps"],
       "link_text": "heredev",
-      "featured": "true"
+      "featured": false
    },
    {
       "title": "This holiday, use your mapping skills to help others",
