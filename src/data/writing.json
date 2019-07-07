@@ -1,5 +1,17 @@
 [
    {
+      "title": "Watch my talk from JSConf Asia 2019",
+      "description": "In early June, I spoke at JSConfAsia about HERE's new 3D web rendering engine, harp.gl",
+      "date": "7/7/2019",
+      "external": false,
+      "slug": "jsconf-asia",
+      "img": "jsconf-asia.png",
+      "categories": ["Data Viz", "Maps", "Work"],
+      "link_text": "continue",
+      "featured": true,
+      "url": "http://dylanbabbs.com/writing/jsconf-asia/"
+   },
+   {
       "title": "Watch my talk at Seattle JS about isoline routing",
       "description": "A few weeks ago I spoke at the Seattle JavaScript meetup about isoline routing.",
       "date": "6/11/2019",
@@ -8,8 +20,8 @@
       "img": "seattle-js-isoline-routing.gif",
       "categories": ["Data Viz", "Maps"],
       "link_text": "continue",
-      "featured": true,
-      "url": "http://dylanbabbs.com/seattle-js-isoline-routing/"
+      "featured": false,
+      "url": "http://dylanbabbs.com/writing/seattle-js-isoline-routing/"
    },
    {
       "title": "Intro to Map Data Visualization Design",
@@ -21,7 +33,7 @@
       "categories": ["Data Viz", "Maps"],
       "link_text": "continue",
       "featured": true,
-      "url": "http://dylanbabbs.com/map-data-viz-design/"
+      "url": "http://dylanbabbs.com/writing/map-data-viz-design/"
    },
    {
       "title": "Interactive Isoline Grid with HERE + Leaflet + React",

@@ -78,17 +78,6 @@
       "background": "#F6F6F6"
    },
    {
-      "title": "Polygon Boundary Query API",
-      "description": "RESTful API for querying HERE polygon boundary data in GeoJSON format.",
-      "content": false,
-      "slug": "query-polygon-api",
-      "external_slug": "https://github.com/dbabbs/query-geojson-polygons",
-      "img": "query-polygon-api.png",
-      "link_text": "github",
-      "categories": ["Code", "Maps"],
-      "background": "#FFB4C4"
-   },
-   {
       "title": "WA Road Usage Charge",
       "description": "Connected vehicle analytics for mileage detection.",
       "content": true,

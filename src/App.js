@@ -45,8 +45,8 @@ class App extends Component {
                this.props.location.pathname === '/' &&
                <Banner
                   title=""
-                  text="Watch my recent talk at Seattle JS about isoline routing"
-                  link="/writing/seattle-js-isoline-routing"
+                  text="Watch my talk about 3D vector maps at JSConfAsia"
+                  link="/writing/jsconf-asia"
                />
 
             }

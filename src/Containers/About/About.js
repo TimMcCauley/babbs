@@ -91,6 +91,8 @@ export default class About extends React.Component {
                            Speaking
                         </div>
                         <div>
+                           <div className="item">3D Vector Web Maps with harp.gl: JavaScript Conference Asia, Singapore, 2019</div>
+                           <div className="item">Isoline Routing: SeattleJS Meetup, Seattle, 2019</div>
                            <div className="item">Web Mapping & Visualization: #Map_IT Hackathon, Warsaw, Poland, 2018</div>
                            <div className="item">Web Mapping & Visualization: HacknBreak, Izmir Turkey, 2018</div>
                            <div className="item">Tableau Visualization: UW Technical Foundations of Informatics, Seattle, WA, 2017</div>

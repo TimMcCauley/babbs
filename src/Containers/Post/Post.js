@@ -2,6 +2,7 @@ import React from 'react';
 import './Post.scss';
 import { MapDataVizDesign } from './MapDataVizDesign/MapDataVizDesign';
 import { SeattleJSIsolineRouting } from './SeattleJSIsolineRouting/SeattleJSIsolineRouting';
+import { JSConfAsia } from './JSConfAsia/JSConfAsia';
 
 export const postLookup = {
    'map-data-viz-design': {
@@ -11,6 +12,10 @@ export const postLookup = {
    'seattle-js-isoline-routing': {
       content: <SeattleJSIsolineRouting />,
       title: 'Watch my talk at Seattle JS about isoline routing'
+   },
+   'jsconf-asia': {
+      content: <JSConfAsia />,
+      title: 'Watch my talk from JSConf Asia 2019'
    }
 }
 const Post = (props) => {
