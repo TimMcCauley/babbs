@@ -14,15 +14,7 @@ export const JSConfAsia = () => {
       <p>
         <a href="https://developer.here.com/blog/introducing-harp.gl-3d-vector-maps-for-the-web">View the harp.gl release blog</a>
       </p>
-
-      <iframe
-        width="100%"
-        height="600"
-        src="https://www.youtube.com/watch?v=YhqpB58-wiQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      />
+      <iframe width="100%" height="600" src="https://www.youtube.com/embed/YhqpB58-wiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </>
   )
 }
