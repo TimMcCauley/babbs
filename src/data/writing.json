@@ -1,5 +1,14 @@
 [
    {
+      "title": "Introducing harp.gl – 3D vector maps for the web",
+      "description": "When we build products at HERE, we don't want to just provide you with advanced tools, but also let you make them your own. Today we’re excited to launch the beta release of harp.gl, a new open source 3D web map renderer.",
+      "date": "6/21/2019",
+      "external": true,
+      "url": "https://developer.here.com/blog/introducing-harp.gl-3d-vector-maps-for-the-web",
+      "categories": ["Code", "Maps", "Work", "Data Viz"],
+      "link_text": "heredev"
+   },
+   {
       "title": "Watch my talk from JSConf Asia 2019",
       "description": "In early June, I spoke at JSConfAsia about HERE's new 3D web rendering engine, harp.gl",
       "date": "7/7/2019",
