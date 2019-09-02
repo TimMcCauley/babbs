@@ -98,6 +98,17 @@ export default class About extends React.Component {
                            <div className="item">Tableau Visualization: UW Technical Foundations of Informatics, Seattle, WA, 2017</div>
                         </div>
                      </div>
+
+                     <div className="about-col">
+                        <div className="title">
+                           Certifications
+                        </div>
+                        <div>
+                           <div className="item">ISPMA Certified Software Product Manager, 2018</div>
+                           <div className="item">AWS Certified Cloud Practitioner, 2019</div>
+                        </div>
+                     </div>
+
                      <div className="about-col">
                         <div className="title">
                            Hackathon Awards
